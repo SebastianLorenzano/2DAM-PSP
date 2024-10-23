@@ -7,6 +7,7 @@ public class Vehiculo {
     public void ensamblarMotor(Motor motor) {
         if(carroceria != null){
             this.motor = motor;
+            System.out.println("FM: Motor ensamblado");
         } else {
             System.out.println("Error, no se puede ensamblar el motor sin carrocería");
         }
@@ -15,13 +16,16 @@ public class Vehiculo {
     public void ensamblarBateria(Bateria bateria) {
         if(carroceria != null){
             this.bateria = bateria;
+            System.out.println("FB: Batería ensamblada");
         } else {
             System.out.println("Error, no se puede ensamblar la batería sin carrocería");
         }
     }
 
-    public void ensamblarCarroceria(Carroceria carroceria) {
+    public synchronized void ensamblarCarroceria(Carroceria carroceria) {
         this.carroceria = carroceria;
+        System.out.println("FM: Carrocería ensamblada");
+        this.notifyAll();
     }
 
     public Motor getMotor() {

@@ -19,8 +19,13 @@ public class FabricarMotor implements Runnable {
         System.out.println("FM: Motor fabricado");
 
         synchronized (vehiculo){
-            System.out.println("FM: Ensamblando motor");
-            vehiculo.ensamblarMotor(m);
+            try {
+                vehiculo.wait();
+                System.out.println("FM: Ensamblando motor");
+                vehiculo.ensamblarMotor(m);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }

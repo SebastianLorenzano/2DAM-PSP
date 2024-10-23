@@ -19,8 +19,14 @@ public class FabricarBateria implements Runnable {
         System.out.println("FB: Batería fabricada");
 
         synchronized (vehiculo){
-            System.out.println("FB: Ensamblando batería");
-            vehiculo.ensamblarBateria(b);
+            try {
+                vehiculo.wait();
+                System.out.println("FB: Ensamblando batería");
+                vehiculo.ensamblarBateria(b);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+
         }
     }
 }
