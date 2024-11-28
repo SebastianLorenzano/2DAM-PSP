@@ -1,0 +1,15 @@
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\exercise11posta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\exercise11posta.AssemblyInfoInputs.cache
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\exercise11posta.AssemblyInfo.cs
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\exercise11posta.csproj.CoreCompileInputs.cache
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\exercise11posta.sourcelink.json
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\bin\Debug\net6.0\exercise11posta.exe
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\bin\Debug\net6.0\exercise11posta.deps.json
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\bin\Debug\net6.0\exercise11posta.runtimeconfig.json
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\bin\Debug\net6.0\exercise11posta.dll
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\bin\Debug\net6.0\exercise11posta.pdb
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\exercise11posta.dll
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\refint\exercise11posta.dll
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\exercise11posta.pdb
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\exercise11posta.genruntimeconfig.cache
+C:\Programming\dam\2DAM-PSP\Practising\exercise11posta\exercise11posta\obj\Debug\net6.0\ref\exercise11posta.dll
