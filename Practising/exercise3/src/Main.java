@@ -1,16 +1,18 @@
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Main
 {
     public static void main(String[] args)
     {
-        ThreadPrimePrinter(15);
+        ThreadPrimePrinter(3);
     }
 
     public static void ThreadPrimePrinter(int threadNum)
     {
         Random r = new Random();
 
+        ArrayList<Thread> threads = new ArrayList<Thread>();
 
         for (int y = 0; threadNum > y; y++)
         {
@@ -35,11 +37,43 @@ public class Main
             });
             t.setName("Thread " + y);
             t.start();
+            threads.add(t);
         }
 
+        for (boolean isRunning = true; isRunning;)
+        {
+            try
+            {
+                Thread.sleep(1000);
+                printAllThreadsState(threads);
+                if (areAllThreadsFinished(threads))
+                    isRunning = false;
+
+            }
+            catch (InterruptedException e)
+            {
+                System.out.println(e.getMessage());
+            }
+        }
+        System.out.println("All threads have been terminated.");
+    }
+
+    private static void printAllThreadsState(ArrayList<Thread> threads)
+    {
+        for (Thread th : threads)
+            System.out.println(th.getName() + ": "  + th.getState());
     }
 
 
+    private static boolean areAllThreadsFinished(ArrayList<Thread> threads)
+    {
+        for (Thread th : threads)
+        {
+            if (th.getState() != Thread.State.TERMINATED)
+                return false;
+        }
+        return true;
+    }
 
     private static boolean isPrime(int a)
     {
