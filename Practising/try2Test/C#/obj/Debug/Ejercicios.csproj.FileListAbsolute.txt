@@ -1,0 +1,14 @@
+C:\Users\Jesus\OneDrive\Documents\2024\PSP\Examen T1\Modelo A\PartePractica\C#\bin\Debug\Ejercicios.exe.config
+C:\Users\Jesus\OneDrive\Documents\2024\PSP\Examen T1\Modelo A\PartePractica\C#\bin\Debug\Ejercicios.exe
+C:\Users\Jesus\OneDrive\Documents\2024\PSP\Examen T1\Modelo A\PartePractica\C#\bin\Debug\Ejercicios.pdb
+C:\Users\Jesus\OneDrive\Documents\2024\PSP\Examen T1\Modelo A\PartePractica\C#\obj\Debug\Ejercicios.csprojAssemblyReference.cache
+C:\Users\Jesus\OneDrive\Documents\2024\PSP\Examen T1\Modelo A\PartePractica\C#\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\OneDrive\Documents\2024\PSP\Examen T1\Modelo A\PartePractica\C#\obj\Debug\Ejercicios.exe
+C:\Users\Jesus\OneDrive\Documents\2024\PSP\Examen T1\Modelo A\PartePractica\C#\obj\Debug\Ejercicios.pdb
+C:\Users\seblor3\Desktop\Programming\2DAM-PSP\Practising\try2Test\C#\obj\Debug\Ejercicios.csproj.AssemblyReference.cache
+C:\Users\seblor3\Desktop\Programming\2DAM-PSP\Practising\try2Test\C#\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\seblor3\Desktop\Programming\2DAM-PSP\Practising\try2Test\C#\obj\Debug\Ejercicios.exe
+C:\Users\seblor3\Desktop\Programming\2DAM-PSP\Practising\try2Test\C#\obj\Debug\Ejercicios.pdb
+C:\Users\seblor3\Desktop\Programming\2DAM-PSP\Practising\try2Test\C#\bin\Debug\Ejercicios.exe.config
+C:\Users\seblor3\Desktop\Programming\2DAM-PSP\Practising\try2Test\C#\bin\Debug\Ejercicios.exe
+C:\Users\seblor3\Desktop\Programming\2DAM-PSP\Practising\try2Test\C#\bin\Debug\Ejercicios.pdb
